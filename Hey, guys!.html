@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hey, guys!</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#d9f2e0;--ink:#2b3a2f;--card:#fffdf4;--line:#2b3a2f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17261c;--ink:#f2f7ec;--card:#233a2b;--line:#f2f7ec}}
+:root[data-theme="dark"]{--bg:#17261c;--ink:#f2f7ec;--card:#233a2b;--line:#f2f7ec}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Fredoka',system-ui,'Segoe UI',sans-serif;font-size:1.2rem;line-height:1.65}
+main{max-width:720px;margin:0 auto;padding:28px 20px 56px}
+.hero{text-align:center;padding:24px 0 4px}
+.emo{font-size:3rem;letter-spacing:.2em}
+h1{font-size:clamp(2.8rem,11vw,5rem);line-height:1;margin:.2em 0 .3em;font-weight:700;letter-spacing:-.02em}
+.card{background:var(--card);border:3px solid var(--line);border-radius:26px;padding:22px 26px;margin:24px 0;box-shadow:6px 6px 0 var(--line)}
+.card p{margin:0}
+.a{transform:rotate(-1deg)}.b{transform:rotate(1deg)}
+.sad{border-style:dashed;box-shadow:none;background:transparent}
+.bye{text-align:center;font-size:1.8rem;font-weight:600;margin-top:36px}
+@media (max-width:560px){.a,.b{transform:none}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="emo" aria-hidden="true">🐒🐅🌿</div>
+    <h1>Hey, guys!</h1>
+  </header>
+  <section class="card a"><p>My friends and I visited a zoo last week. It was a very fun experience!</p></section>
+  <section class="card b"><p>I saw capybaras, monkeys, and tigers. The capybaras were very calm, and the monkeys were funny and energetic. The tigers were beautiful and strong.</p></section>
+  <section class="card sad"><p>Unfortunately, I didn’t see any elephants because they were not at the zoo that day.</p></section>
+  <section class="card a"><p>Something funny happened while I was watching the monkeys. One monkey grabbed a visitor’s hat and ran away with it! Everyone laughed, and the visitor finally got his hat back.</p></section>
+  <section class="card b"><p>I really enjoyed my visit to the zoo. I learned a lot about animals, and I would love to go there again!</p></section>
+  <p class="bye">Bye, guys!</p>
+</main>
+</body>
+</html>
